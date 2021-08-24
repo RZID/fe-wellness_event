@@ -1,0 +1,108 @@
+@font-face {
+  font-family: DinPro-Light;
+  src: url("../fonts/DINPro_light.ttf");
+}
+
+.illustration {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.text-dinpro {
+  font-family: DinPro-Light;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.h-landing-content {
+  height: calc(100vh - 200px);
+}
+
+/* orange */
+
+.bg-orange {
+  background-color: #ea715d !important;
+}
+
+.text-orange {
+  color: #ea715d !important;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #ff7360;
+  border-color: #ff7360;
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #a84d41;
+  border-color: #a84d41;
+}
+
+.navbar-orange .navbar-brand,
+.nav-link,
+.navbar-toggler {
+  color: #ea715d !important;
+}
+
+/* End of orange */
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.navbar-fade-enter {
+  opacity: 0;
+}
+.navbar-fade-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+.navbar-fade-exit {
+  opacity: 1;
+}
+.navbar-fade-exit-active {
+  opacity: 0;
+  transition: all 500ms;
+}
+
+.navbar-head-enter {
+  background-color: #ffff;
+  color: #ea715d;
+}
+.navbar-head-enter-active {
+  background-color: #ea715d !important;
+  color: #ffff;
+  transition: all 500ms;
+}
+.navbar-head-enter-done {
+  background-color: #ea715d !important;
+  color: #ffff;
+}
+.navbar-head-exit {
+  background-color: #ea715d !important;
+  color: #ffff;
+}
+.navbar-head-exit-active {
+  background-color: #ffff !important;
+  color: #ea715d !important;
+  transition: background-color 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .border-md {
+    border: 1px solid #dee2e6 !important;
+  }
+}
+
+table * {
+  white-space: nowrap;
+}
